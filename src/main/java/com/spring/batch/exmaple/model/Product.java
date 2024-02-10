@@ -1,5 +1,6 @@
 package com.spring.batch.exmaple.model;
 
+
 public class Product  {
     private String productId;
     private String title;

@@ -1,0 +1,5 @@
+com\spring\batch\exmaple\SpringBootExample\SpringBootExampleApplication.class
+com\spring\batch\exmaple\config\CustomItemProcessor.class
+com\spring\batch\exmaple\model\Product.class
+com\spring\batch\exmaple\config\BatchConfig.class
+com\spring\batch\exmaple\config\JobCompletionNotificationImpl.class

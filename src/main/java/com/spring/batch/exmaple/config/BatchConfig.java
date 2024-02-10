@@ -56,7 +56,7 @@ public class BatchConfig {
     public FlatFileItemReader<Product> reader() {
         return new FlatFileItemReaderBuilder<Product>()
                 .name("itemReader")
-                .resource(new ClassPathResource("data.csv"))
+                .resource(new ClassPathResource("G:\\Project Java\\SpringBootExample\\SpringBootExample\\src\\main\\resources\\data.csv"))
                 .delimited()
                 .names("productId", "title", "description", "price", "discount")
                 .targetType(Product.class)
